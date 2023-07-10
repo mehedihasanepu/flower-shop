@@ -1,3 +1,56 @@
-h1{
-    background-color: red;
+/* common share style */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    background-color: #E554731A;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 18px 40px;
+    align-items: flex-start;
+    border-radius: 6px;
+    background-color: #E55473;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+}
+
+/* banner section style */
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    padding-top: 60px;
+    /* height: 100vh; */
+    /* padding: 10px 0px 0px 50px; */
+}
+
+.banner-text {
+    padding-left: 30px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16.5px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: -20px;
+}
+
+.banner-img {
+    padding: 30px 40px 0px 0px;
+    width: 500px;
+    height: 600px;
 }
