@@ -116,3 +116,25 @@ header {
 .features-footer h5 {
     font-weight: 600;
 }
+
+/* services section styles */
+.services {
+    padding: 50px;
+    margin: 100px 178px;
+    background-color: #2727270D;
+    border-radius: 10px;
+}
+
+.all-services {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services-items {
+    text-align: center;
+}
+
+.service-img {
+    width: 68px;
+    height: 68px;
+}
