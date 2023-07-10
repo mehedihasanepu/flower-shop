@@ -174,9 +174,38 @@ header {
     display: flex;
     gap: 15px;
     padding-top: 50px;
+    justify-content: center;
 }
 
 .instagram-img {
-    width: 320px;
-    height: 350px;
+    width: 275px;
+    height: 315px;
+}
+
+/* Subscribe section styles */
+.subscribe {
+    background-image: url("../images/subscribe-img.png");
+    border-radius: 7px;
+    padding: 80px;
+    margin: 100px 175px;
+    background-repeat: no-repeat;
+}
+
+.subscribe-section-text {
+    text-align: center;
+    line-height: 15px;
+    padding-bottom: 40px;
+}
+
+.subscribe-input {
+    text-align: center;
+}
+
+.input-email {
+    width: 500px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 7px 0 7px 10px;
 }
