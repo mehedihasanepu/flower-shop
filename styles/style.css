@@ -19,6 +19,21 @@ header {
     font-size: 16px;
 }
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
 /* banner section style */
 
 .banner {
@@ -53,4 +68,51 @@ header {
     padding: 30px 40px 0px 0px;
     width: 500px;
     height: 600px;
+}
+
+/* Featured Flowers style */
+.features-header {
+    margin-top: 150px;
+    line-height: 15px;
+}
+
+.features-images-section {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 60px;
+}
+
+.flower-1 {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.flower-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-img {
+    width: 230px;
+    height: 310px;
+    padding: 55px 51px 0px 51px;
+}
+
+.features-footer {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    font-size: 17px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+.features-footer h5 {
+    font-weight: 600;
 }
