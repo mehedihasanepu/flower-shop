@@ -148,11 +148,35 @@ header {
     padding: 80px;
 }
 
+.off {
+    color: #E55473;
+}
+
 #hot-deal-btn {
     margin-left: 180px;
 }
 
 .hot-deal-img {
     width: 238px;
+    height: 350px;
+}
+
+/* Instagram section style */
+.instagram {
+    margin: 130px;
+}
+
+.instagram-section-header {
+    line-height: 15px;
+}
+
+.instagram-all-img {
+    display: flex;
+    gap: 15px;
+    padding-top: 50px;
+}
+
+.instagram-img {
+    width: 320px;
     height: 350px;
 }
