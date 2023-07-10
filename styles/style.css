@@ -11,7 +11,7 @@ header {
 .btn {
     display: inline-flex;
     padding: 18px 40px;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     border-radius: 6px;
     background-color: #E55473;
     color: #fff;
@@ -22,7 +22,7 @@ header {
 .section-title {
     color: #272727;
     text-align: center;
-    font-size: 38px;
+    font-size: 30px;
     font-weight: 800;
 }
 
@@ -137,4 +137,22 @@ header {
 .service-img {
     width: 68px;
     height: 68px;
+}
+
+/* Hot deal section styles */
+.hot-deal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E554730D;
+    padding: 80px;
+}
+
+#hot-deal-btn {
+    margin-left: 180px;
+}
+
+.hot-deal-img {
+    width: 238px;
+    height: 350px;
 }
