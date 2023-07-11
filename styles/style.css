@@ -17,6 +17,7 @@ header {
     color: #fff;
     border: 0;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .section-title {
@@ -115,6 +116,66 @@ header {
     font-weight: 600;
 }
 
+/* .Popular Categories section styles */
+.categories {
+    background-image:
+        linear-gradient(135deg, rgba(229, 84, 115, 0.05), rgba(229, 84, 115, 0.103)),
+        url('../images/categorie-banner.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.categories-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.categories-box {
+    box-shadow: 10px 10px 10px rgba(202, 202, 202, 0.604);
+    background-color: #ffff;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.categories-box-img {
+    height: 360px;
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+}
+
+.categories-text {
+    padding: 20px;
+    text-align: left;
+}
+.categories-box-title{
+    color: #272727;
+    font-size: 20px;
+    font-weight: 400;
+}
+.categories-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.categories-btn{
+    display: inline-flex;
+    padding: 14px 25px;
+    border-radius: 90px;
+    background-color: #E55473;
+    color: #fff;
+    border: 0;
+    font-size: 13px;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+}
+
 /* services section styles */
 .services {
     padding: 70px 50px;
@@ -207,32 +268,38 @@ header {
     margin-right: 10px;
     padding: 7px 0 7px 10px;
 }
+
 /* footer section style */
-.footer{
+.footer {
     background-color: #111010;
 }
-.footer-text{
+
+.footer-text {
     text-align: center;
     line-height: 15px;
     padding: 130px;
 }
-.footer-title{
-    color: #E55473;
+
+.footer-title {
+    color: #ffffff;
     text-align: center;
     font-size: 30px;
     font-weight: 800;
 }
-.shop{
-    color: #FFFFFF;
+
+.shop {
+    color: #e55473;
 }
-.footer-description{
+
+.footer-description {
     text-align: center;
     font-size: 14.5px;
     font-weight: 400;
     line-height: 25px;
     color: #FFFFFFE5;
 }
-.copyright{
+
+.copyright {
     text-align: center;
     color: #FFFFFF66;
 }
